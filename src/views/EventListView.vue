@@ -10,7 +10,7 @@ onMounted(()=>{
 		events.value = response.data
 		// console.log('events:', response.data)
 	})
-	.catch((error)=>{
+	.catch((error)=>{ 
 		console.log(error)
 	})
 })
